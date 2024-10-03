@@ -1,0 +1,8 @@
+<Context>
+	<Resource name="bancoVoejar" 
+		auth="Container" type="javax.sql.DataSource" 
+		username="voejar" password="@application" 
+		driverClassName="com.mysql.cj.jdbc.Driver" 
+		url="jdbc:mysql://localhost:3306/voejar" 
+	/>
+</Context>
