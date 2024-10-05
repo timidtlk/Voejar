@@ -22,7 +22,7 @@ public class VooDAO {
         ArrayList<Voo> listaVoos = new ArrayList<>();
         try {
             connection = dataSource.getConnection();
-            String sql = "SELECT * FROM voos WHERE origem=?, destino=?, data=?";
+            String sql = "SELECT * FROM voos WHERE origem=? AND destino=? AND data=?";
             statement = connection.prepareStatement(sql);
             statement.setString(1, voo.getOrigem());
             statement.setString(2, voo.getDestino());

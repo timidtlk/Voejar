@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 15vh;
     background-color: aliceblue;
 }
@@ -11,10 +11,9 @@ body {
 }
 form {
     width: 21%;
-    height: 40%;
     flex-direction: column;
     background-color: rgb(225, 245, 242);
-    padding: 2vh;
+    padding: 2%;
     position: relative;
     margin: auto;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.199);
